@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Barlow+Condensed:wght@100&family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Barlow+Condensed:wght@100&family=Open+Sans:wght@700&display=swap');
+
+*{
+  padding:0 ;
+  margin:0;
+}
+
+section::before{
+  content: "";
+  background-image: url(images/background\ image-2.jpg);
+position: absolute;
+  top:0px;
+  left:0px;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.799;
+}
+
+h1 {
+  text-align:center;
+  font-family: 'Assistant', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  margin:3rem 3rem; 
+  color: white;
+  font-size: 4rem;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inp_field {
+  height: 3rem;
+  width: 26rem;
+  padding: 2px 14px;
+  font-size: 26px;
+  border: 2px solid black;
+  outline:none;
+  border-radius: 7px;
+  font-family: 'Assistant', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color:  #d4e5f2;;
+  margin-left: 5px;
+}
+
+.btn {
+  height: 3rem;
+  width: 4rem;
+  margin: 0px 8px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: #696d70;
+  border-radius: 7px;
+}
+
+
+.paragraph-styling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  cursor: pointer;
+  font-size: 40px;
+  font-family: 'Assistant', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color:yellow;
+}
+
+.list_container {
+  margin-top: 25px;
+}
